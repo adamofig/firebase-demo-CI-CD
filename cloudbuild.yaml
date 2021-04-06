@@ -13,5 +13,6 @@
 # limitations under the License.
 
 steps: 
-- name: gcr.io/$PROJECT_ID/firebase
-  args: ['deploy', '--project=$PROJECT_ID', '--only=hosting']
+- name: gcr.io/appingles-qa/firebase
+  args: ['deploy', '--project=appingles-qa', '--only=hosting']
+
